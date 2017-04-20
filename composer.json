@@ -1,0 +1,36 @@
+{
+    "name": "farmaprom/behat-skip-extension",
+    "description": "Skip extension for Behat",
+    "type": "library",
+    "keywords": ["behat", "skip", "extension", "php"],
+    "homepage": "http://lab.farmaprom.pl/",
+    "require": {
+        "php": "~7.1",
+        "behat/behat": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FarmaProm\\Behat\\SkipExtension\\": "src/Behat/SkipExtension"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FarmaProm",
+            "email": "it@farmaprom.pl"
+        },
+        {
+            "name": "Miłosz Sotomski",
+            "email": "milosz.sotomski@farmaprom.pl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
